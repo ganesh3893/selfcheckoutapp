@@ -1,0 +1,25 @@
+{
+  "name": "selfcheckout",
+  "version": "1.0.0",
+  "description": "Self Checkout Application ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Ganesh Chowdhary",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/cli": "^1.6.5"
+  }
+}
